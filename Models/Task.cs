@@ -9,7 +9,7 @@ namespace ProjectEF {
 
         public DateTime CreationDate {get;set;}
 
-
+        public Category Category {get;set;}
     }
 }
 
