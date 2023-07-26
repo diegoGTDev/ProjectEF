@@ -1,7 +1,15 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace ProjectEF {
     public class Task{
+
+        [Key]
         public Guid TaskID {get;set;}
+        [ForeignKey("CategoriaID")]
         public Guid CategoryID {get;set;}
+        [Required]
+        [MaxLength(200)]
         public string Title {get;set;}
         public string Description {get;set;}
         
@@ -10,6 +18,9 @@ namespace ProjectEF {
         public DateTime CreationDate {get;set;}
 
         public Category Category {get;set;}
+        
+        [NotMapped]
+        public string Resume {get;set;}
     }
 }
 

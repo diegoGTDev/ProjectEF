@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xlioiTsFBgAKi923WRQTgKTRbnE/+uKcj7QJ1SrhHxOgmIMvaoeOnqzy4VzLdzhlczqmz3mDn5jxmnADD/mT3g==",
+  "dgSpecHash": "KL7H04/puTf0sRYRUC5z1hs3tle9qmRW/9RNRLu/RMF/1bbFUIOsU9FFcfP609qbAP2+LMjhj+RoJ4T0T8UuJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj",
+  "projectFilePath": "c:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
