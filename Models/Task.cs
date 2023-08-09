@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ProjectEF {
     public class Task{
 
-        [Key]
+        //[Key]
         public Guid TaskID {get;set;}
         [ForeignKey("CategoriaID")]
         public Guid CategoryID {get;set;}
@@ -19,7 +19,7 @@ namespace ProjectEF {
 
         public Category Category {get;set;}
         
-        [NotMapped]
+        //[NotMapped]
         public string Resume {get;set;}
     }
 }
