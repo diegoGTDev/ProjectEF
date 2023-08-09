@@ -23,6 +23,7 @@ namespace ProjectEF{
                 task.Property(p => p.Description);
                 task.Property(p => p.TaskPriority).IsRequired();
                 task.Property(p => p.CreationDate).IsRequired();
+                task.Property(p => p.IsCompleted).IsRequired();
                 task.Ignore(p => p.Resume);
                
             });

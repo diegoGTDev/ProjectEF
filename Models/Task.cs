@@ -18,6 +18,8 @@ namespace ProjectEF {
         public DateTime CreationDate {get;set;}
 
         public Category Category {get;set;}
+
+        public Boolean IsCompleted {get;set;}
         
         //[NotMapped]
         public string Resume {get;set;}
