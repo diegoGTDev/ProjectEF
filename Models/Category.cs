@@ -1,5 +1,6 @@
 
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ProjectEF{
     public class Category{
@@ -11,6 +12,7 @@ namespace ProjectEF{
         public string description {get;set;}
         
         public int weight {get;set;}
+        [JsonIgnore]
         public virtual ICollection<Task> Tasks {get;set;}
     }
 

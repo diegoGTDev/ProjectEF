@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj": {}
+    "c:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj": {
+    "c:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj",
         "projectName": "ProjectEF",
-        "projectPath": "C:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj",
+        "projectPath": "c:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\ProjectEF.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Documents\\Programacion\\Platzi\\ProjectEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

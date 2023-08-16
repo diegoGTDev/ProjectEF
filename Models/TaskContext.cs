@@ -20,7 +20,7 @@ namespace ProjectEF{
                 category.HasData(categoriesInit);
             });
             List<Task> tasksInit = new List<Task>();
-            tasksInit.Add(new Task() {TaskID = Guid.Parse("48370ccf-8013-41a3-9495-95ba8ea41601"), CategoryID = Guid.Parse("48370ccf-8013-41a3-9495-95ba8ea416fb"), Title = "Study for exam", Description = "Study Math for the sunday", TaskPriority = Priority.Low, CreationDate = DateTime.Now, IsCompleted = false});
+            tasksInit.Add(new Task() {TaskID = Guid.Parse("48370ccf-8013-41a3-9495-95ba8ea41601"), CategoryID = Guid.Parse("48370ccf-8013-41a3-9495-95ba8ea416fb"),Title = "Study for exam", Description = "Study Math for the sunday", TaskPriority = Priority.Low, CreationDate = DateTime.Now, IsCompleted = false});
             modelBuilder.Entity<Task>(task =>{
                 task.ToTable("Task");
                 task.HasKey(p => p.TaskID);
